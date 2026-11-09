@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Paper to Research GIF">
+  <rect width="512" height="512" rx="108" fill="#172941"/>
+  <rect x="115" y="90" width="244" height="320" rx="30" fill="#f5f7fb"/>
+  <path d="M160 166h150M160 205h113" stroke="#94a3b8" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="256" cy="309" r="70" fill="#20c7bd"/>
+  <path d="m237 269 58 40-58 40z" fill="#172941"/>
+  <path d="M397 179a171 171 0 0 1 14 130" fill="none" stroke="#f8bf64" stroke-width="25" stroke-linecap="round"/>
+  <path d="m424 313-15 52-40-36" fill="#f8bf64"/>
+</svg>

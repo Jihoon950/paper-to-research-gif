@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "paper-to-research-gif",
+  "version": "0.1.0",
+  "description": "Turn a research paper into a source-grounded, five-second animated research GIF.",
+  "keywords": ["research", "paper", "gif", "science communication"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Paper to Research GIF",
+        "shortDescription": "5-second paper GIFs",
+        "longDescription": "Read a paper, select its central mechanism, and make a clear 4–6 second silent GIF that communicates the research at a glance. Keep claims tied to the source, label conceptual animation, and check readability, timing, looping, and file size.",
+        "developerName": "Jihoon",
+        "category": "Productivity",
+        "capabilities": ["Read papers", "Create GIFs"],
+        "defaultPrompt": [
+          "Make a five-second looping GIF that explains the core idea of this paper at a glance.",
+          "Create a source-faithful research teaser GIF from this paper."
+        ],
+        "brandColor": "#172941",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "publication": {
+        "release_notes": "Initial skill release with research micro-story guidance and GIF encoding checks."
+      }
+    }
+  }
+}

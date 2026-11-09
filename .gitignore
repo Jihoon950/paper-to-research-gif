@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.gif
+*.mp4
+*.png
+*.pdf
+*.zip
+out/
+node_modules/
